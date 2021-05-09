@@ -8,11 +8,11 @@
 Königreich, großteils Wüste  
 *TODO* Beschreibung hinzufügen
 
-**Religionen**  
-* **Amon Ra:** Gott der Sonne und des Feuers
-* **Jabal Zarg:** Gott der Herden
-* **Set:** Schlangengott
-* **Inpu:** Totengott
+**[Religionen](./religion.html)**  
+* Amon Ra
+* Jabal Zarg
+* Set
+* Inpu
 
 #### Hijal
 
