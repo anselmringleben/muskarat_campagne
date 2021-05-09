@@ -2,4 +2,4 @@
 
 ## Weitere Inhalte
 
-* [Welt](world.md)
+* [Welt](./world.html)
