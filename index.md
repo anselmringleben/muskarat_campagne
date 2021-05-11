@@ -4,5 +4,7 @@
 
 ### Weitere Inhalte
 
-* [Welt](./world.html)
+* [Welt/Muskarat](./world.html)
+  * [Hijal](./hijal.html)
+  * [Dalam](./dalam.html)
 * [Religionen](./religion.html)
