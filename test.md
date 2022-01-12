@@ -7,6 +7,6 @@
     <area shape="circle" coords="360,130,100" href="circle.html" alt="Circle">
   </map>
 </div>
-
+ 
 * bullet 1
 * 2
