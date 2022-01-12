@@ -14,7 +14,6 @@ Die Stadt wird durch die Fürstenfamilie `Abu Musa` beherrscht. Derzeitiger Kopf
 
 #### Fürstenrat
 * `Kundiger Mutadin`
-<!--* {% person %}`Kundiger Mutadin`{% endperson %}-->
 
 #### Stadtwache
 * Hauptmann der Stadtwache: `Umar Ben Husam`
