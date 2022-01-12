@@ -13,7 +13,7 @@ Größte Stadt und Handelszentrum der nord-westlichen Provinz am Wadi Musa geleg
 Die Stadt wird durch die Fürstenfamilie `Abu Musa` beherrscht. Derzeitiger Kopf der Familie ist `Fürst X Abu Musa`.
 
 #### Fürstenrat
-* `Kundiger Mutadin`
+* {% person %}`Kundiger Mutadin`{% endperson %}
 
 #### Stadtwache
 * Hauptmann der Stadtwache: `Umar Ben Husam`
