@@ -1,3 +1,6 @@
+---
+---
+
 ## Hijal
 
 *TODO* Stadtkarte hinzufügen
@@ -24,7 +27,6 @@ Weitere Mitglieder der Familie sind
 * {% include_relative descriptions/_people/hijal_mutadin.md %}
 * Hauptmann der Stadtwache 'Umar Ben Husam'
 * Archont des Amon Ra-Tempels in Hijal 'Farid Abu Musa'
-* Test
 
 #### Stadtwache
 * Hauptmann der Stadtwache: `Umar Ben Husam`
