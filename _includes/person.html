@@ -1,0 +1,7 @@
+{% assign person = site.people
+| where_exp:"person", "person.name == 'Mutadin'"
+| first %}
+<h3>Include var: {{ include.name }}</h3>
+
+<p>{{ person.name }} - {{ person.title }}</p>
+<p>{{ person.content | markdownify }}</p>

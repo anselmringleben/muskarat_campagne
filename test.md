@@ -7,15 +7,12 @@
     <area shape="circle" coords="360,130,100" href="circle.html" alt="Circle">
   </map>
 </div>
- 
-* bullet 1
-* 2
 
-## Include
+# Include
 
-{% include people.html %}
+{% include person.html name="Mutadin" %}
 
-## Collection access
+# Collection access
 
 {% for person in site.people %}
   <h2>Person</h2>
