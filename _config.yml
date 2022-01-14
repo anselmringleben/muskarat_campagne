@@ -2,4 +2,8 @@ title: Muskarat Kampagne
 theme: jekyll-theme-minimal
 logo: /assets/img/market.png
 
-safe: false
+collections:
+  people:
+    output: true
+
+collections_dir: descriptions
