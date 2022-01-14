@@ -10,3 +10,5 @@
  
 * bullet 1
 * 2
+
+{% include people.html %}
