@@ -10,7 +10,7 @@
 
 # Include
 
-{% include person.html name="Mutadin" %}
+{% include person.html name="Mutadin" url=true %}
 
 # Collection access
 

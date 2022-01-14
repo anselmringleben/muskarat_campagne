@@ -24,8 +24,8 @@ Weitere Mitglieder der Familie sind
 * *andere?*
 
 #### Rat des Fürsten Kamil Abu Musa
-{% capture my_include %}{% include person.html name="Mutadin" %}{% endcapture %}
-* {{ my_include | markdownify }}
+
+* {% include person.html name="Mutadin" url=true %}
 * Hauptmann der Stadtwache 'Umar Ben Husam'
 * Archont des Amon Ra-Tempels in Hijal 'Farid Abu Musa'
 
