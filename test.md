@@ -11,4 +11,14 @@
 * bullet 1
 * 2
 
+## Include
+
 {% include people.html %}
+
+## Collection access
+
+{% for person in site.people %}
+  <h2>Person</h2>
+  <h2>{{ person.name }} - {{ person.position }}</h2>
+  <p>{{ person.content | markdownify }}</p>
+{% endfor %}
