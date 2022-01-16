@@ -4,10 +4,12 @@
 {%- if include.url -%}
 <a href="{{ person.url }}">{{ person.title }} {{ person.name }}</a>
 {%- else -%}
-<details>
-  <summary>{{ person.title }} {{ person.name }}</summary>
+<div>
+  <details>
+    <summary>{{ person.title }} {{ person.name }}</summary>
 
-  {{- person.content | markdownify -}}
+    {{- person.content | markdownify -}}
 
-</details>
+  </details>
+</div>
 {%- endif %}
