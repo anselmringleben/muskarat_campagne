@@ -1,4 +1,4 @@
-{%- assign person = site.people
+{% assign person = site.people
 | where_exp:"person", "person.name == include.name"
 | first -%}
 {%- if include.url -%}
@@ -10,4 +10,4 @@
   {{- person.content | markdownify -}}
 
 </details>
-{%- endif -%}
+{%- endif %}
