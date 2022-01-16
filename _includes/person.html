@@ -7,7 +7,7 @@
 <details>
   <summary>{{ person.title }} {{ person.name }}</summary>
 
-  <p>{{ person.content | markdownify }}</p>
+  {{ person.content | rstrip | markdownify }}
 
 </details>
 {%- endif -%}
