@@ -12,6 +12,8 @@
 
 {% include person.html name="Mutadin" url=true %}
 
+{% include person.html name="Farid Abu Musa" %}
+
 # Collection access
 
 {% for person in site.people %}
