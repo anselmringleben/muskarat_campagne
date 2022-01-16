@@ -18,6 +18,6 @@
 
 {% for person in site.people %}
   <h2>Person</h2>
-  <h2>{{ person.name }} - {{ person.position }}</h2>
+  <h3>{{ person.name }} - {{ person.position }}</h3>
   <p>{{ person.content | markdownify }}</p>
 {% endfor %}
