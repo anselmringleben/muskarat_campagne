@@ -4,16 +4,16 @@
 {% if include.url -%}
 <a href="{{ person.url }}">{{ person.title }} {{ person.name }}</a>
 {% else %}
-{% if include.list_item %}
+{%- if include.list_item -%}
 <li>
-  {% endif %}
+  {%- endif -%}
   <details>
     <summary>{{ person.title }} {{ person.name }}</summary>
 
     {{- person.content | markdownify -}}
 
   </details>
-  {% if include.list_item %}
+  {%- if include.list_item -%}
 </li>
-{% endif %}
+{%- endif -%}
 {% endif %}

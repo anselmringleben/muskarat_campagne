@@ -11,7 +11,7 @@
 # Include
 
 * {% include person.html name="Mutadin" url=true %}
-* {% include person.html name="Mutadin" list_item=true %}
+{% include person.html name="Mutadin" list_item=true %}
 * {% include person.html name="Farid Abu Musa" %}
 
 {% include person.html name="Farid Abu Musa" %}
