@@ -3,13 +3,17 @@
 | first -%}
 {% if include.url -%}
 <a href="{{ person.url }}">{{ person.title }} {{ person.name }}</a>
-{% else -%}
-<div>
+{% else %}
+{% if include.list_item %}
+<li>
+  {% endif %}
   <details>
     <summary>{{ person.title }} {{ person.name }}</summary>
 
     {{- person.content | markdownify -}}
 
   </details>
-</div>
+  {% if include.list_item %}
+</li>
+{% endif %}
 {% endif %}
