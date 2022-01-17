@@ -6,7 +6,7 @@
 {% else %}
 {%- if include.list_item -%}
 <li>
-  {%- endif -%}
+  {% endif %}
   <details>
     <summary>{{ person.title }} {{ person.name }}</summary>
 
@@ -15,5 +15,5 @@
   </details>
   {%- if include.list_item -%}
 </li>
-{%- endif -%}
+{% endif %}
 {% endif %}
