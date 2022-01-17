@@ -3,7 +3,7 @@
 | first -%}
 {% if include.url -%}
 <a href="{{ person.url }}">{{ person.title }} {{ person.name }}</a>
-{% else %}
+{% else -%}
 <div>
   <details>
     <summary>{{ person.title }} {{ person.name }}</summary>
