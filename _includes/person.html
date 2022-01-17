@@ -7,14 +7,12 @@
 {%- if include.list_item -%}
 <li>
   {% endif %}
-  {::nomarkdown}
-  <details>
+  <details markdown=1>
     <summary>{{ person.title }} {{ person.name }}</summary>
 
     {{- person.content | markdownify -}}
 
   </details>
-  {::/nomarkdown}
   {%- if include.list_item -%}
 </li>
 {% endif %}
