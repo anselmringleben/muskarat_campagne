@@ -1,9 +1,9 @@
 {% assign person = site.people
 | where_exp:"person", "person.name == include.name"
 | first -%}
-{%- if include.url -%}
+{% if include.url %}
 <a href="{{ person.url }}">{{ person.title }} {{ person.name }}</a>
-{%- else -%}
+{% else %}
 <div>
   <details>
     <summary>{{ person.title }} {{ person.name }}</summary>
@@ -12,4 +12,4 @@
 
   </details>
 </div>
-{%- endif %}
+{% endif %}
