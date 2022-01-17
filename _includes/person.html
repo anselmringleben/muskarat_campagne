@@ -5,6 +5,7 @@
 <a href="{{ person.url }}">{{ person.title }} {{ person.name }}</a>
 {% else %}
 {%- if include.list_item -%}
+{::nomarkdown}
 <li>
   {% endif %}
   <details>
@@ -15,5 +16,6 @@
   </details>
   {%- if include.list_item -%}
 </li>
+{::/nomarkdown}
 {% endif %}
 {% endif %}
