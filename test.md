@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## Test
 
 <div align="center">
@@ -10,9 +13,8 @@
 
 # Include
 
-* {% include person.html name="Mutadin" url=true %}
-{% include person.html name="Mutadin" list_item=true %}
-* {% include person.html name="Farid Abu Musa" %}
+* {% include person_url.html name="Mutadin" %}
+  {% include person.html name="Farid Abu Musa" list_item=true %}
 
 {% include person.html name="Farid Abu Musa" %}
 
